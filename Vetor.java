@@ -8,7 +8,7 @@ public class Vetor {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("***INPUTANDO ELEMENTO EM UM VETOR E PECORRENDO A ESTES ELEMENTOS*** ");
+        System.out.println("INPUTANDO ELEMENTO EM UM VETOR E PECORRENDO A ESTES ELEMENTOS");
         System.out.println();
         System.out.print("QUANTOS NUMEROS VOCE VAI DIGITAR ? ");
         int N = sc.nextInt();
