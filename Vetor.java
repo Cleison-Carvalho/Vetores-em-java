@@ -9,6 +9,7 @@ public class Vetor {
         Scanner sc = new Scanner(System.in);
         
         System.out.println("***INPUTANDO ELEMENTO EM UM VETOR E PECORRENDO A ESTES ELEMENTOS*** ");
+        System.out.println();
         System.out.print("QUANTOS NUMEROS VOCE VAI DIGITAR ? ");
         int N = sc.nextInt();
         
@@ -22,6 +23,20 @@ public class Vetor {
         System.out.println("NUMEROS DIGITADOS: ");
         for (int i = 0; i < N; i++) {
             System.out.println(String.format("%.1f", vet[i]));
+        }
+
+        System.out.println("ELEMENTOS DE NUMEROS PARES: ");
+        for (int i = 0; i < N; i++) {
+            if (vet[i] % 2 == 0) {
+                System.out.println(vet[i]);
+            }
+        }
+
+        System.out.println("ELEMENTOS DE NUMEROS IMPARES: ");
+        for (int i = 0; i < N; i++) {
+            if (vet[i] %2 != 0) {
+                System.out.println(vet[i]);
+            }
         }
         
         sc.close();
