@@ -38,6 +38,7 @@ public class Vetor {
                 System.out.println(vet[i]);
             }
         }
+        System.out.println("Finalizado com sucesso!!");
         
         sc.close();
 
